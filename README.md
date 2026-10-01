@@ -20,71 +20,51 @@
 
 ---
 
-### `whoami`
+### `01 / identity`
 
-I build **cloud infrastructure and automation** with a focus on making systems easier to deploy, operate, and understand.
+**I turn infrastructure into something repeatable.**
 
-My work spans **AWS, Terraform, Kubernetes, CI/CD, DevSecOps, and observability** — with a practical focus on turning repetitive operational work into reliable, repeatable workflows.
+I work across **cloud infrastructure, automation, delivery, security, and observability** — with a focus on building systems that are easier to deploy, operate, and improve.
 
-> **Build it. Automate it. Observe it. Improve it.**
+My primary ecosystem:
 
----
-
-## `the stack`
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,terraform,kubernetes,docker,githubactions,gitlab,prometheus,grafana,python,bash,linux&perline=6" />
-</p>
-
-<p align="center">
-  <sub>
-    Cloud · Infrastructure as Code · Containers · CI/CD · Observability · Automation
-  </sub>
-</p>
+`AWS` · `Terraform` · `Kubernetes` · `Docker` · `CI/CD`
 
 ---
 
-## `what I'm building`
+### `02 / what I build`
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ☁️ AWS Automation
+#### ☁️ Cloud Automation
 
-**Serverless Infrastructure Automation**
+**AWS Serverless Infrastructure**
 
-Automating AWS operations with:
+Automating infrastructure operations with:
 
 `Lambda` `Python` `Terraform` `Terragrunt`
 
 `EventBridge` `IAM` `CloudWatch`
 
-**Focus**
-
-Infrastructure automation
-Cost-aware operations
-Reusable IaC
+**→ automation · reliability · cost awareness**
 
 </td>
 
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🚢 Cloud-Native Platform
+#### 🚢 Cloud-Native Systems
 
 **Microservices & DevOps Platform**
 
-Building around:
+Working with:
 
-`AWS` `EKS` `Docker` `Kubernetes`
+`Docker` `EKS` `Kubernetes` `Terraform`
 
-`Terraform` `Helm` `Observability`
+`Helm` `Prometheus` `Grafana`
 
-**Focus**
-
-Containerized workloads
-Cloud infrastructure
-Deployment & observability
+**→ containers · infrastructure · observability**
 
 </td>
 </tr>
@@ -92,66 +72,119 @@ Deployment & observability
 
 ---
 
-## `how I think about DevOps`
+### `03 / the way I build`
 
-```text
-              ┌───────────────┐
-              │      CODE     │
-              └───────┬───────┘
-                      ↓
-              ┌───────────────┐
-              │     BUILD     │
-              └───────┬───────┘
-                      ↓
-              ┌───────────────┐
-              │     SECURE    │
-              └───────┬───────┘
-                      ↓
-              ┌───────────────┐
-              │     DEPLOY    │
-              └───────┬───────┘
-                      ↓
-              ┌───────────────┐
-              │    OBSERVE    │
-              └───────┬───────┘
-                      ↓
-              ┌───────────────┐
-              │    IMPROVE    │
-              └───────────────┘
-```
+<p align="center">
 
-I care about the **system around the application**:
+**CODE**
+↓
+**BUILD**
+↓
+**SECURE**
+↓
+**DEPLOY**
+↓
+**OBSERVE**
+↓
+**IMPROVE**
 
-**Infrastructure → Delivery → Security → Observability**
+</p>
 
-Because shipping software is only part of the job.
+I don't see DevOps as a collection of tools.
+
+I see it as a **feedback loop**.
+
+> Build something → understand how it behaves → automate the repeatable parts → observe it → improve it.
 
 ---
 
-## `currently`
+### `04 / current direction`
 
-**Going deeper into**
+```text
+CLOUD
+AWS infrastructure · serverless · networking
 
-`AWS` · `Kubernetes` · `Terraform` · `Observability`
+INFRASTRUCTURE
+Terraform · Terragrunt · reusable IaC
+
+PLATFORM
+Docker · Kubernetes · EKS · Helm
+
+DELIVERY
+GitHub Actions · GitLab CI/CD · GitOps
+
+OBSERVABILITY
+Prometheus · Grafana · Loki · OpenTelemetry
+
+SECURITY
+Trivy · Checkov · Gitleaks · OIDC
+```
+
+---
+
+### `05 / selected work`
+
+#### `aws-serverless-infrastructure-automation`
+
+**Event-driven AWS automation built around Infrastructure as Code.**
+
+`Lambda` `Python` `Terraform` `Terragrunt` `EventBridge` `CloudWatch`
+
+→ infrastructure automation
+→ repeatable deployments
+→ cloud cost awareness
+
+---
+
+#### `cloud-native-microservices-platform`
+
+**A cloud-native platform built around containers, Kubernetes, and AWS.**
+
+`Docker` `EKS` `Kubernetes` `Terraform` `Observability`
+
+→ containerized workloads
+→ infrastructure automation
+→ deployment & observability
+
+---
+
+### `06 / currently`
 
 **Building**
 
-Cloud automation and production-style DevOps projects.
+Cloud and DevOps projects that resemble real operational environments.
 
-**Exploring**
+**Learning**
 
-Better ways to make infrastructure **repeatable, observable, and cost-aware**.
+The deeper side of Kubernetes, AWS architecture, and production observability.
+
+**Improving**
+
+The gap between *"it works"* and *"it can be operated reliably."*
 
 ---
 
-## `selected work`
+### `07 / stack`
 
-| Project                                      | What it demonstrates                                      |
-| -------------------------------------------- | --------------------------------------------------------- |
-| **AWS Serverless Infrastructure Automation** | Lambda · Terraform · Terragrunt · Event-driven automation |
-| **Cloud-Native Microservices Platform**      | Docker · EKS · Kubernetes · Terraform · Observability     |
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,terraform,kubernetes,docker,githubactions,gitlab,prometheus,grafana,python,bash,linux&perline=6" />
+</p>
 
-→ **Explore my repositories for the implementation.**
+---
+
+### `08 / engineering notes`
+
+```text
+Reproducible > manual
+
+Automated > repetitive
+
+Observable > invisible
+
+Secure by default > secure later
+
+Simple enough to understand > complex for the sake of complexity
+```
 
 ---
 
@@ -159,16 +192,15 @@ Better ways to make infrastructure **repeatable, observable, and cost-aware**.
   <img src="https://github-readme-stats.vercel.app/api?username=Akash3328&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&hide_title=true" height="150"/>
 </p>
 
----
+<br>
 
 <p align="center">
-  <strong>Infrastructure should be reproducible.<br>
-  Deployments should be repeatable.<br>
-  Systems should be observable.</strong>
+  <strong>Build systems that can be understood.<br>
+  Automate systems that can be repeated.<br>
+  Observe systems that matter.</strong>
 </p>
 
 <p align="center">
-  <br>
   <a href="https://www.akashdev.cloud">akashdev.cloud</a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/akash-odedara-b9722a237">LinkedIn</a>
