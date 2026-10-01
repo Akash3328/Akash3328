@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.vercel.app?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=1400&color=58A6FF&center=true&vCenter=true&width=680&lines=Infrastructure+as+Code;Cloud+Automation;Containerized+Systems;Reliable+Delivery" alt="Engineering focus" />
+  <img src="https://readme-typing-svg.vercel.app?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=680&lines=Infrastructure+as+Code;Cloud+Automation;Containerized+Systems;Reliable+Delivery" alt="Engineering focus" />
 </p>
 
 ---
